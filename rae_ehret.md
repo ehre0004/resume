@@ -18,7 +18,7 @@ I am a web programmer and scripter with skills in at least 4 kinds of database t
 
 ## Other Skills
 
-*Languages*:
+**Languages**:
 
 + Fluent English
 + Intermediate French (And learning)
@@ -26,5 +26,6 @@ I am a web programmer and scripter with skills in at least 4 kinds of database t
 + Beginner German
 + Beginner Italian
 
-*Teamwork*
-*Thorough researcher*
+**Teamwork**
+
+**Thorough researcher**
