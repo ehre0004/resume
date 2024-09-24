@@ -10,7 +10,7 @@ body, html {
     font-size: 16pt;
 }
 
-nav {
+div#nav {
     display: flex;
     position: fixed;
     top: 0;
@@ -21,7 +21,7 @@ nav {
     color: white;
 }
 
-nav div {
+div#nav div {
     flex: 1;
     box-sizing: border-box;
     margin: 0.25em;
@@ -32,7 +32,6 @@ nav div {
 #content-container {
     box-sizing: border-box;
     padding: 2.25em 0.75em 0.75em 0.75em;
-    height: 100%;
 }
 
 #content-container div {
@@ -42,6 +41,11 @@ nav div {
 
 .hide {
     display: none;
+}
+
+.iblock {
+    margin-left: 1.5em;
+    margin-bottom: 2.5vh;
 }
 
 /* general formatting */
@@ -61,12 +65,67 @@ h1, h2 {
 
 p {
     margin-top: 1.5vh;
+    margin-bottom: 2.5vh;
 }
 
+ul, ol {
+    margin-bottom: 1.5em;
+}
+
+li {
+    margin-left: 2em;
+}
+
+table {
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+}
+
+th, td {
+    padding: 0.05em 0.25em 0.05em 0.25em;
+}
+
+table tr th:not(:last-child), table tr td:not(:last-child) {
+    border-right: 0.5vh solid black;
+}
+
+table tr th:nth-child(odd) {
+    background-color: lightyellow;
+}
+
+table tr th:nth-child(even) {
+    background-color: aquamarine;
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(227, 226, 226);
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(194, 194, 194);
+}
+
+td a:link, td a:visited {
+    color: mediumseagreen;
+}
 
 
 @media screen and (min-width: 600px) {
     body {
-        font-size: 12pt;
+        font-size: 14pt;
+        display: flex;
+        justify-content: center;
+    }
+    div#nav {
+        display: block;
+        text-align: center;
+    }
+    div#nav div {
+        display: inline-block;
+    }
+    #content-container {
+        width: 75%;
     }
 }

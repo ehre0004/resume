@@ -1,6 +1,6 @@
 # Rae Ehret, Programmer
 
-I am a web programmer and scripter with skills in at least 4 kinds of database technologies. Learning languages and opportunities to practice my skills are exciting, as well as being able to further my experience in fields related to my chosen studies.
+I am a web programmer and scripter with skills in at least 4 kinds of database technologies. I love languages and can spend hours programming on end. I am always looking to further develop my skillset.
 
 ## Programming-related skills
 

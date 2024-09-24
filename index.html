@@ -7,15 +7,89 @@
 </head>
 <body>
 
-    <nav>
-        <div><a href="#top" onclick="goto('c1')">1</a></div>
-        <div><a href="#top" onclick="goto('c2')">2</a></div>
-        <div><a href="#top" onclick="goto('c3')">3</a></div>
-    </nav>
+    <div id="nav">
+        <div><a href="#top" onclick="goto(1)">1</a></div>
+        <div><a href="#top" onclick="goto(2)">2</a></div>
+        <div><a href="#top" onclick="goto(3)">3</a></div>
+        <div><a href="#top" onclick="getAll()">All</a></div>
+    </div>
     <div id="content-container" name="top">
-        <div id="c1"><h1>Rae Ehret</h1><p><a href="#4">Lorem</a> ipsum dolor sit amet, consectetur adipiscing elit. Nam at massa vestibulum, suscipit magna eu, pretium nisi. Nunc odio turpis, commodo id diam pellentesque, elementum malesuada quam. Nullam est magna, gravida sit amet aliquet non, ullamcorper consequat odio. Vestibulum efficitur, nisi eget auctor accumsan, turpis tortor volutpat lacus, accumsan elementum libero erat at leo. Aenean ullamcorper pharetra nibh, non mollis est rutrum non. Proin in massa diam. Mauris a lacinia ipsum. Sed et laoreet massa. Praesent nec dui bibendum, viverra augue et, ultrices dolor. Aliquam at viverra est. Ut feugiat, magna eu porttitor viverra, tellus lorem egestas neque, quis fermentum turpis diam eget velit. </p></div>
-        <div id="c2" class="hide"><h2>Content 2:</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at massa vestibulum, suscipit magna eu, pretium nisi. Nunc odio turpis, commodo id diam pellentesque, elementum malesuada quam. Nullam est magna, gravida sit amet aliquet non, ullamcorper consequat odio. Vestibulum efficitur, nisi eget auctor accumsan, turpis tortor volutpat lacus, accumsan elementum libero erat at leo. Aenean ullamcorper pharetra nibh, non mollis est rutrum non. Proin in massa diam. Mauris a lacinia ipsum. Sed et laoreet massa. Praesent nec dui bibendum, viverra augue et, ultrices dolor. Aliquam at viverra est. Ut feugiat, magna eu porttitor viverra, tellus lorem egestas neque, quis fermentum turpis diam eget velit. </p></div>
-        <div id="c3" class="hide"><h2>Content 3:</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at massa vestibulum, suscipit magna eu, pretium nisi. Nunc odio turpis, commodo id diam pellentesque, elementum malesuada quam. Nullam est magna, gravida sit amet aliquet non, ullamcorper consequat odio. Vestibulum efficitur, nisi eget auctor accumsan, turpis tortor volutpat lacus, accumsan elementum libero erat at leo. Aenean ullamcorper pharetra nibh, non mollis est rutrum non. Proin in massa diam. Mauris a lacinia ipsum. Sed et laoreet massa. Praesent nec dui bibendum, viverra augue et, ultrices dolor. Aliquam at viverra est. Ut feugiat, magna eu porttitor viverra, tellus lorem egestas neque, quis fermentum turpis diam eget velit. </p></div>
+        <div id="c1">
+            <h1>Rae Ehret</h1>
+            <p>I am a Java/Python (web) programmer looking for opportunities in programming, database, and
+                related fields. I understand basic French and intermediate Japanese. My interests lie in people and
+                language.</p>
+            <p>I can be contacted by <a href="mailto:rae.m.ehret@gmail.com">email</a> or by phone.</p>
+        </div>
+        <div id="c2" class="hide">
+            <h2>Skills</h2>
+            <p>Here are the programming languages as well as script and markdown languages that I know:</p>
+            <table>
+                <tr><th>Prog. Languages</th><th>Scripts and Markdown</th></tr>
+                <tr><td>Java</td><td>HTML</td></tr>
+                <tr><td>Python</td><td>CSS</td></tr>
+                <tr><td></td><td>Javascript</td></tr>
+                <tr><td></td><td>SQL</td></tr>
+            </table>
+            <p>Databases that I am familiar with:</p>
+            <ul>
+                <li>MySQL</li>
+                <li>SQL Server</li>
+                <li>Oracle</li>
+                <li>MS Access</li>
+            </ul>
+            <p>And other skills that may interest:</p>
+            <table>
+                <tr><th>Languages</th><th>Other</th></tr>
+                <tr><td>Fluent English</td><td>WCAG</td></tr>
+                <tr><td>Intermediate French</td><td>Thorough Researcher</td></tr>
+                <tr><td>Intermediate Japanese</td><td>Problem-solver</td></tr>
+                <tr><td>Beginner German</td><td>Patient</td></tr>
+                <tr><td>Beginner Italian</td><td>Teamwork</td></tr>
+                <tr><td>Beginner ASL</td><td></td></tr>
+            </table>
+        </div>
+        <div id="c3" class="hide">
+            <h2>Education</h2>
+            <div class="iblock">
+                <strong>Computer Programmer Diploma Program</strong><br>
+                Algonquin College, Ottawa, ON<br>
+                Sept. 2017 - Dec. 2019</div>
+            <div class="iblock">
+                <strong>Linguistics and Applied Linguistics and Discourse</strong><br>
+                Carleton University, Ottawa, ON<br>
+                Sept. 2011 - 2013
+            </div>
+            <h2>Work Experience</h2>
+            <br>
+            <table>
+                <tr><th>Years</th><th>Job</th></tr>
+                <tr>
+                    <td>2021 - 2024</td>
+                    <td>Sales Associate, Walmart</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>Web Programmer and Tester, <a href="https://www.canada.ca/en/canadian-heritage.html">Canadian Heritage</a></td>
+                </tr>
+                <tr>
+                    <td>2017</td>
+                    <td>Food Bank, Volunteering</td>
+                </tr>
+                <tr>
+                    <td>2009 - 2011</td>
+                    <td>Sales Associate, Walmart</td>
+                </tr>
+                <tr>
+                    <td>2008</td>
+                    <td>Stage Hand, Donation Collector</td>
+                </tr>
+                <tr>
+                    <td>2006 - 2008</td>
+                    <td>Tutor, Volunteering</td>
+                </tr>
+            </table>
+        </div>
     </div>
 
     <script src="main.js"></script>
