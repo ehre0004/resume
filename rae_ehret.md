@@ -4,12 +4,12 @@ I am a web programmer and scripter with skills in at least 4 kinds of database t
 
 ## Programming-related skills
 
-| **Languages** | **Scripts and Markdown** |
-| :------------ | :----------------------- |
-| Java          | HTML                     |
-| Python        | CSS                      |
-|               | Javascript               |
-|               | SQL                      |
+| _Languages_ | _Scripts and Markdown_ |
+| :---------- | :--------------------- |
+| Java        | HTML                   |
+| Python      | CSS                    |
+|             | Javascript             |
+|             | SQL                    |
 
 ## Other Skills
 
